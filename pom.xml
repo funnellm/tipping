@@ -19,7 +19,7 @@
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
         <gson.version>2.2.4</gson.version>
-        <http-client.version>4.2.4</http-client.version>
+        <http-client.version>4.5.4</http-client.version>
         <guava.version>18.0</guava.version>
     </properties>
 
@@ -76,9 +76,9 @@
     </build>
 
     <modules>
+        <module>common</module>
         <module>betfair-client</module>
         <module>google-client</module>
-        <module>common</module>
         <module>controller</module>
     </modules>
 </project>

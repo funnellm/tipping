@@ -9,6 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bettfair-client</artifactId>
+    <artifactId>betfair-client</artifactId>
     <name>Betfair Client</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>funnellm.personal</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

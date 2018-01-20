@@ -3,4 +3,5 @@ ${env.WORKSPACE}
 *.idea
 *.iml
 *.log
+*.credentials
 target
